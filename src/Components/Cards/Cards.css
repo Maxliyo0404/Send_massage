@@ -29,8 +29,7 @@ body{
 .label{
    
     display: flex;
-    align-items: flex-start;
-    a
+    align-items: start;
     flex-direction: column;
     gap: 10px;
      font-weight:500;
