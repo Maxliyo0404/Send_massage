@@ -2,11 +2,15 @@ import "./Cards.css";
 import React, { useState } from 'react'
 
 function Cards() {
-  const sendMassage = (event)=>{
+  const sendMessage = (event)=>{
     event.preventDefault();
     const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
     const chat_id =  647264939
-  const massageContent = `Ism : ${name}\n ${phone}`;
+    const url = `https://api.telegram.org/bot ${token}/sendMassage`;
+    const name = document.getElementById("username").value
+    const phone = document.getElementById("phone").value
+
+  const messageContent = `Ism : ${name}\n ${phone}`;
   }
 
   return (
@@ -15,7 +19,7 @@ function Cards() {
           <form className="form">
             <label className="label">
                 Full name
-                <input className="input"  id="name" type="text"required placeholder="Enter your name ..." />
+                <input className="input"  id="username" type="text"required placeholder="Enter your name ..." />
                 </label>
             <label className="label">
                 Phone number
