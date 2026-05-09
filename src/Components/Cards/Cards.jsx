@@ -1,3 +1,4 @@
+import axios from "axios";
 import "./Cards.css";
 import React, { useState } from 'react'
 
@@ -11,12 +12,27 @@ function Cards() {
     const phone = document.getElementById("phone").value
 
   const messageContent = `Name : ${name}\n Phone number: ${phone}`;
+  axios({
+    url:url,
+    method:"POST",
+    data :{
+        chat_id:chat_id,
+        text:messageContent,
+    }
+  })
+  .then(()=>{
+    alert("hammasi joyida");
+  }).catch((error)=>{
+    console.log(error);
+    
+  })
+  
   }
 
   return (
     <div className="boxs">
           <h1 className="title">Registration</h1>
-          <form className="form">
+          <form className="form" onSubmit={sendMessage} >
             <label className="label">
                 Full name
                 <input className="input"  id="username" type="text"required placeholder="Enter your name ..." />
