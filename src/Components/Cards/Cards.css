@@ -1,0 +1,12 @@
+body{
+    background: black;
+}
+
+.boxs{
+    max-width: 600px;
+    min-height: 500px;
+    background: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+}

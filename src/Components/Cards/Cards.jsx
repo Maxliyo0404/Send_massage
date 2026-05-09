@@ -7,7 +7,7 @@ function Cards() {
     event.preventDefault();
     const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
     const chat_id =  647264939
-    const url = `https://api.telegram.org/bot ${token}/sendMassage`;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const name = document.getElementById("username").value
     const phone = document.getElementById("phone").value
 
@@ -21,7 +21,7 @@ function Cards() {
     }
   })
   .then(()=>{
-    alert("hammasi joyida");
+    alert("Successfully sent!✅");
   }).catch((error)=>{
     console.log(error);
     
