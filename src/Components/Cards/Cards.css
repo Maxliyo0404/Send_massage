@@ -14,6 +14,7 @@ body{
 .title{
     text-align: center;
     font-weight: bold;
+    color: #4a5568;
    font-size: 40px;
    line-height: 40px;
    padding-top: 80px;
@@ -34,12 +35,14 @@ body{
      font-weight:500;
      font-size: 20px;
      line-height: 26px;
+     color: #4a5568;
 }
 .input{
     width: 300px;
     margin-bottom: 25px;
     padding: 8px ;
     border-radius: 8px;
+    border: ;
     outline: none;
      font-size: 15px;
      line-height: 20px;
