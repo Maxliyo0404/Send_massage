@@ -2,7 +2,11 @@ import "./Cards.css";
 import React, { useState } from 'react'
 
 function Cards() {
-   const [send, sendMassage] = useState([]);
+  
+   const sendMassage = ((event)=>{
+   event.preventDefault();
+   
+   })
 
   return (
     <div className="boxs">
