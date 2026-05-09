@@ -63,6 +63,7 @@ body{
      border: none;
      cursor: pointer;
      &:hover{
-        b
+        background: #2b6cb0;
      }
+     margin-top: 10px;
 }
