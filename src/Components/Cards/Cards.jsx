@@ -10,7 +10,7 @@ function Cards() {
     const name = document.getElementById("username").value
     const phone = document.getElementById("phone").value
 
-  const messageContent = `Ism : ${name}\n ${phone}`;
+  const messageContent = `Name : ${name}\n Phone number: ${phone}`;
   }
 
   return (
