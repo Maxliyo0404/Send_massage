@@ -6,7 +6,7 @@ function Cards() {
     event.preventDefault();
     const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
     const chat_id =  647264939
-  const massageContent = 
+  const massageContent = `Ism : ${name}\n ${phone}`;
   }
 
   return (
