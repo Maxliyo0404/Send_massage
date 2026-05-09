@@ -1,7 +1,9 @@
 import "./Cards.css";
-import React from 'react'
+import React, { useState } from 'react'
 
 function Cards() {
+   const [send, sendMassage] = useState([]);
+
   return (
     <div className="boxs">
           <h1 className="title">Registration</h1>
