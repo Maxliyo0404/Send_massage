@@ -2,11 +2,11 @@ import "./Cards.css";
 import React, { useState } from 'react'
 
 function Cards() {
-  
-   const sendMassage = ((event)=>{
-   event.preventDefault();
-   
-   })
+  const sendMassage = (event)=>{
+    event.preventDefault();
+    const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
+    const chat_id = 
+  }
 
   return (
     <div className="boxs">
