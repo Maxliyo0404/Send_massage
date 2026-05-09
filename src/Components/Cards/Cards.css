@@ -11,9 +11,7 @@ body{
     min-height: 500px;
     background: white;
     margin: 100px auto 0;
-    border-radius: 20px;
-    
-    
+    border-radius: 20px   
 }
 .title{
     font-family: "Poppins", sans-serif;
