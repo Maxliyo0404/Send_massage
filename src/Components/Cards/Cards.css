@@ -31,7 +31,7 @@ body{
     flex-direction: column;
 }
 .label{
-   
+    font-family: "Poppins", sans-serif;
     display: flex;
     align-items: start;
     flex-direction: column;
