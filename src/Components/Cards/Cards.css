@@ -70,3 +70,11 @@ body{
      }
      margin-top: 10px;
 }
+@media(width:400px){
+  input {
+    width: 100%;
+  }
+  btn {
+    width: 100%;
+  }
+}
