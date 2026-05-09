@@ -10,6 +10,11 @@ function Cards() {
                 Full name
                 <input className="input"  id="username" type="text"required placeholder="Enter your name ..." />
                 </label>
+            <label className="label">
+                Phone number
+                <input className="input"  id="name" type="number"required placeholder="Enter your name ..." />
+                </label>
+                
           </form>
 
     </div>
