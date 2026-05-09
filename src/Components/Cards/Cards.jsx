@@ -5,6 +5,12 @@ function Cards() {
   return (
     <div className="boxs">
           <h1 className="title">Registration</h1>
+          <form className="form">
+            <label className="label">
+                Full name
+                <input className="input"  id="username" type="text"required placeholder="Enter your name ..." />
+                </label>
+          </form>
 
     </div>
   )
