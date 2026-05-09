@@ -5,7 +5,8 @@ function Cards() {
   const sendMassage = (event)=>{
     event.preventDefault();
     const token = `8799654997:AAFXbpKmshRxD_WcqAShMxtcHeU-IMsZ2OE`
-    const chat_id = 
+    const chat_id =  647264939
+  const massageContent = 
   }
 
   return (
