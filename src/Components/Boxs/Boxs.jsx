@@ -32,6 +32,7 @@ function Boxs() {
   return (
     <>
     <div className="articles">
+        <h1 className="title">Registration</h1>
         <form className="form" onSubmit={sendMessage}>
             <label className="label">
                 Full Name
