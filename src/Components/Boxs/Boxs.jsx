@@ -4,7 +4,8 @@ import React from 'react'
 function Boxs() {
 
     const SendName = ((event) =>{
-        event.preventDefualt()
+        event.preventDefualt();
+    const token = ""
     })
   return (
     <>
