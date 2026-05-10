@@ -6,7 +6,7 @@ function Boxs() {
     const SendName = ((event) =>{
         event.preventDefualt();
     const token = `"8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4`
-    const chat_id =
+    const chat_id = 647264939
     })
   return (
     <>
