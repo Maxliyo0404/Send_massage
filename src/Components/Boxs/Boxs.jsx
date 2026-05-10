@@ -12,7 +12,7 @@ function Boxs() {
             </label>
             <label className="label">
                 Phone Number
-                <input type="number" required placeholder="Enter your  name ..." />
+                <input type="number" required placeholder="+ 99897 987 65 43" />
             </label>
         </form>
     </div>
