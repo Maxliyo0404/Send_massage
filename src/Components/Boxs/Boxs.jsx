@@ -5,7 +5,11 @@ function Boxs() {
   return (
     <>
     <div className="articles">
-        
+        <form className="form">
+            <label className="label">
+                Full Name
+            </label>
+        </form>
     </div>
     </>
   )
