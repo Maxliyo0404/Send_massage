@@ -3,7 +3,8 @@ import React from 'react'
 
 function Boxs() {
   return (
-    <div>Boxs</div>
+    <>
+    </>
   )
 }
 
