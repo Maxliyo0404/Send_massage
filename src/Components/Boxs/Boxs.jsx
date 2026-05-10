@@ -8,7 +8,7 @@ function Boxs() {
         <form className="form">
             <label className="label">
                 Full Name
-                <input id="name" type="text" required placeholder="Enter your  name ..." />
+                <input className="input" id="name" type="text" required placeholder="Enter your  name ..." />
             </label>
             <label className="label">
                 Phone Number
