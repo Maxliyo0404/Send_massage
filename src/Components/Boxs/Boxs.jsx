@@ -20,8 +20,11 @@ function Boxs() {
             text:SendContent,
             
         }
-     })
 
+     })
+      .then(()=>{
+        alert("Hammasi zor");
+      })
     })
   return (
     <>
