@@ -10,7 +10,8 @@ function Boxs() {
     const url = `https://api.telegram.org/bot${token}/SendName`;
     const username = document.getElementById("name");
     const phone = document.getElementById("tel");
-    const SendContent = `Name : ${name}\n Phone: ${tel}`
+    const SendContent = `Name : ${name}\n Phone: ${tel}`;
+    
 
     })
   return (
