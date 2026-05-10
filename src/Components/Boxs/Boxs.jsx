@@ -1,3 +1,4 @@
+import axios from "axios";
 import "./Boxs.css";
 import React from 'react'
 
@@ -11,7 +12,10 @@ function Boxs() {
     const username = document.getElementById("name");
     const phone = document.getElementById("tel");
     const SendContent = `Name : ${name}\n Phone: ${tel}`;
-    
+     axios({
+        url:url,
+        method:"POST",
+     })
 
     })
   return (
