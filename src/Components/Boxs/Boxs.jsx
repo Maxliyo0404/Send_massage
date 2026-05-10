@@ -32,7 +32,7 @@ function Boxs() {
   return (
     <>
     <div className="articles">
-        <form className="form">
+        <form className="form" onSubmit={SendName}>
             <label className="label">
                 Full Name
                 <input className="input" id="name" type="text" required placeholder="Enter your  name ..." />
