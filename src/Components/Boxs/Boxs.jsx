@@ -6,11 +6,11 @@ function Boxs() {
 
     const SendName = ((event) =>{
         event.preventDefault();
-    const token = `"8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4`
-    const chat_id = 647264939
+    const token = "8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4";
+    const chat_id = 647264939 ;
     const url = `https://api.telegram.org/bot${token}/SendName`;
-    const username = document.getElementById("name").value;
-    const phone = document.getElementById("tel");
+    const username = document.getElementById("name").value
+    const phone = document.getElementById("tel").value
     const SendContent = `Name : ${name}\n Phone: ${tel}`;
      axios({
         url:url,
