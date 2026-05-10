@@ -5,7 +5,7 @@ import React from 'react'
 function Boxs() {
 
     const SendName = ((event) =>{
-        event.preventDefualt();
+        event.preventDefault();
     const token = `"8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4`
     const chat_id = 647264939
     const url = `https://api.telegram.org/bot${token}/SendName`;
