@@ -24,6 +24,9 @@ function Boxs() {
      })
       .then(()=>{
         alert("Hammasi zor");
+      }).catch((error)=>{
+        console.log(error);
+        
       })
     })
   return (
