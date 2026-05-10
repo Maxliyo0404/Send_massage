@@ -83,6 +83,10 @@ body{
   }
 }
 .articles{
+    max-width: 500px;
+    min-height: 500px;
+    background: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
     margin-bottom: 100px;
-    background: skyblue;
 }
