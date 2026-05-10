@@ -10,6 +10,10 @@ function Boxs() {
                 Full Name
                 <input type="text" required placeholder="Enter your  name ..." />
             </label>
+            <label className="label">
+                
+                <input type="text" required placeholder="Enter your  name ..." />
+            </label>
         </form>
     </div>
     </>
