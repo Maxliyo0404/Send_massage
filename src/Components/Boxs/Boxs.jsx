@@ -15,6 +15,11 @@ function Boxs() {
      axios({
         url:url,
         method:"POST",
+        data :{
+            chat_id:chat_id,
+            
+            
+        }
      })
 
     })
