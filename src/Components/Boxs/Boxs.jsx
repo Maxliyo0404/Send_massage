@@ -2,6 +2,10 @@ import "./Boxs.css";
 import React from 'react'
 
 function Boxs() {
+
+    const SendName = ((event) =>{
+        event.preventDefualt()
+    })
   return (
     <>
     <div className="articles">
