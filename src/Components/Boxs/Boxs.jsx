@@ -14,6 +14,7 @@ function Boxs() {
                 Phone Number
                 <input type="number" required placeholder="+ 99897 987 65 43" />
             </label>
+            <button type="Submit" className="btn">Submit</button>
         </form>
     </div>
     </>
