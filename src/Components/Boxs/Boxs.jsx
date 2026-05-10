@@ -4,11 +4,11 @@ import React from 'react'
 
 function Boxs() {
 
-    const SendName = ((event) =>{
+    const sendMessage = ((event) =>{
         event.preventDefault();
     const token = `8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4`;
     const chat_id = 647264939 ;
-    const url = `https://api.telegram.org/bot${token}/SendName`;
+    const url = `https://api.telegram.org/bot${token}/sendMessage`;
     const username = document.getElementById("name").value
     const phone = document.getElementById("tel").value
     const SendContent = `Name : ${username}\n Phone: ${phone}`;
@@ -32,7 +32,7 @@ function Boxs() {
   return (
     <>
     <div className="articles">
-        <form className="form" onSubmit={SendName}>
+        <form className="form" onSubmit={sendMessage}>
             <label className="label">
                 Full Name
                 <input className="input" id="name" type="text" required placeholder="Enter your  name ..." />
