@@ -7,8 +7,10 @@ function Boxs() {
         event.preventDefualt();
     const token = `"8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4`
     const chat_id = 647264939
+    const url = `https://`
     const username = document.getElementById("name");
     const phone = document.getElementById("tel");
+   
 
     })
   return (
